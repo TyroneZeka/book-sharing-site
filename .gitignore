@@ -1,0 +1,96 @@
+# Java and Spring Boot
+/target/
+/out/
+/build/
+
+# Maven
+.mvn/
+**/mvnw
+**/mvnw.cmd
+**/target/
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logging.properties
+
+# Gradle
+.gradle/
+/build/
+/!gradle-wrapper.jar
+**/gradle-wrapper.jar
+.gradle/
+build/
+!gradlew
+!gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Spring Boot
+.spring-boot-devtools.properties
+.spring-boot-devtools.yml
+
+# Node and Angular
+node_modules/
+/dist/
+/tmp/
+package-lock.json
+yarn.lock
+coverage/
+
+# Temp files
+*.swp
+*~
+.idea/
+*.bak
+*.tmp
+*.swp
+*~
+*.tmp
+*.temp
+*.diff
+*.orig
+*.sublime-project
+*.sublime-workspace
+*.tmp
+*.temp
+*.diff
+*.orig
+*.patch
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
