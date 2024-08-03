@@ -3,7 +3,6 @@ package org.example.booksocialnetwork.api.feedback;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import lombok.Value;
 import org.example.booksocialnetwork.api.common.PageResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
