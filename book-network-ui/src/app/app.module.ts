@@ -9,7 +9,7 @@ import {LoginComponent} from "./pages/login/login.component";
 import {HTTP_INTERCEPTORS, provideHttpClient, withFetch} from "@angular/common/http";
 import {ActivateAccountComponent} from './pages/activate-account/activate-account.component';
 import {CodeInputModule} from "angular-code-input";
-import {httpTokenInterceptor} from "./services/interceptor/http-token.interceptor";
+import {HttpTokenInterceptor} from "./services/interceptor/http-token.interceptor";
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import {httpTokenInterceptor} from "./services/interceptor/http-token.intercepto
     provideHttpClient(withFetch()),
     {
       provide: HTTP_INTERCEPTORS,
-      useFactory: httpTokenInterceptor,
+      useFactory: HttpTokenInterceptor,
       multi: true
     }
   ],
